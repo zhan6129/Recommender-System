@@ -31,7 +31,7 @@ Recommender systems are useful to help patients feels empowered while monitoring
 
 ## Process
 
-![Optional Text](C:/Users/ca_z/Desktop/pic.jpg)
+![Optional Text](../master/pic.jpg)
 
 The general flow is to import the dataset to AWS S3. Next, you create a cluster on AWS EMR to use PySpark. This helps utilize resources more efficiently. Using MLLib on a cluster we just created, one can successfully build a recommender system. The final output will be a list of recommendations personalized for each users’ input. We will now walk you through a detailed example of our group using this framework to develop a personalized movie recommender system. 
 
